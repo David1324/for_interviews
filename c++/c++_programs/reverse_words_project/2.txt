@@ -1,0 +1,25 @@
+void reverse_each_word(char* sentence, char* reverse_sentence)
+{
+	int length = strlen(sentence);
+	int i;
+	int j;
+	int temp;
+	int reverse_sentence_index = 0;
+
+	temp = -1;
+	for (i = 0 ; i<length ; i++)
+	{
+		if (sentence[i+1]=='\0' || sentence[i+1]==' ')
+		{
+			for (j=i ; j>temp ; j--)
+			{
+				reverse_sentence[reverse_sentence_index] = sentence[j];
+				reverse_sentence_index++;
+			}
+			reverse_sentence[reverse_sentence_index] = ' ';
+			reverse_sentence_index++;
+			temp = i+1;
+		}
+	}
+	reverse_sentence[reverse_sentence_index] = '\0';
+}

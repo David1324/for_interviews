@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solve_Equation", "Solve_Equation\Solve_Equation.vcxproj", "{4667B070-2CC3-4BC6-AF21-BB4C7377F5BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interview_questions", "interview_questions\interview_questions.vcxproj", "{3EDA312B-D7FE-4167-A22A-DC445011EE66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4667B070-2CC3-4BC6-AF21-BB4C7377F5BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4667B070-2CC3-4BC6-AF21-BB4C7377F5BA}.Debug|Win32.Build.0 = Debug|Win32
+		{4667B070-2CC3-4BC6-AF21-BB4C7377F5BA}.Release|Win32.ActiveCfg = Release|Win32
+		{4667B070-2CC3-4BC6-AF21-BB4C7377F5BA}.Release|Win32.Build.0 = Release|Win32
+		{3EDA312B-D7FE-4167-A22A-DC445011EE66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EDA312B-D7FE-4167-A22A-DC445011EE66}.Debug|Win32.Build.0 = Debug|Win32
+		{3EDA312B-D7FE-4167-A22A-DC445011EE66}.Release|Win32.ActiveCfg = Release|Win32
+		{3EDA312B-D7FE-4167-A22A-DC445011EE66}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

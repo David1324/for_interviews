@@ -1,0 +1,5 @@
+ % Get mean displacement
+function Displ=GetMeanDisplacement(Valid)
+    SizeValid=size(Valid);
+    ValidFirstImage=mean(Valid(:,1),2)*ones(1,SizeValid(1,2));
+    Displ=Valid-ValidFirstImage;    

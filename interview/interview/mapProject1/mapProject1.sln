@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapProject1", "mapProject1\mapProject1.vcxproj", "{C7A61691-3BA0-4E21-9593-51E519980CBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapReadFromFile", "mapReadFromFile\mapReadFromFile.vcxproj", "{699F706E-B5D4-4131-B5CD-72F765E74F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7A61691-3BA0-4E21-9593-51E519980CBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7A61691-3BA0-4E21-9593-51E519980CBD}.Debug|Win32.Build.0 = Debug|Win32
+		{C7A61691-3BA0-4E21-9593-51E519980CBD}.Release|Win32.ActiveCfg = Release|Win32
+		{C7A61691-3BA0-4E21-9593-51E519980CBD}.Release|Win32.Build.0 = Release|Win32
+		{699F706E-B5D4-4131-B5CD-72F765E74F20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{699F706E-B5D4-4131-B5CD-72F765E74F20}.Debug|Win32.Build.0 = Debug|Win32
+		{699F706E-B5D4-4131-B5CD-72F765E74F20}.Release|Win32.ActiveCfg = Release|Win32
+		{699F706E-B5D4-4131-B5CD-72F765E74F20}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

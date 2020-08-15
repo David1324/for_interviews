@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interview", "interview\interview.vcxproj", "{00E21CD5-7E3E-4CA4-A408-6B896F9DFE8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interview1", "interview1\interview1.vcxproj", "{88389FE8-E003-4A2C-8585-9560104FB704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E21CD5-7E3E-4CA4-A408-6B896F9DFE8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00E21CD5-7E3E-4CA4-A408-6B896F9DFE8F}.Debug|Win32.Build.0 = Debug|Win32
+		{00E21CD5-7E3E-4CA4-A408-6B896F9DFE8F}.Release|Win32.ActiveCfg = Release|Win32
+		{00E21CD5-7E3E-4CA4-A408-6B896F9DFE8F}.Release|Win32.Build.0 = Release|Win32
+		{88389FE8-E003-4A2C-8585-9560104FB704}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88389FE8-E003-4A2C-8585-9560104FB704}.Debug|Win32.Build.0 = Debug|Win32
+		{88389FE8-E003-4A2C-8585-9560104FB704}.Release|Win32.ActiveCfg = Release|Win32
+		{88389FE8-E003-4A2C-8585-9560104FB704}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

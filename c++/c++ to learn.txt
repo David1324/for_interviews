@@ -1,0 +1,83 @@
+vector
+list
+STL
+iterators
+casting in c++
+c++ declaration of function inside a function
+volatile
+mutable
+The storage specifier m u t a b l e specifies that a member should be stored in a way that allows updating
+– even when it is a member of a c o n s t object.
+
+copy constructor
+copy assignment
+memberwise copy
+
+Table t1=t2 how does it work? (memberwise copy)
+garbage collector
+initialisation list
+
+abstract class
+template
+volatile
+
+what is hash table?
+
+what is polymorphism
+wat are the advantages of polymorphism
+
+http://www.learncpp.com/cpp-tutorial/122-virtual-functions/
+http://en.wikipedia.org/wiki/Virtual_function
+http://stackoverflow.com/questions/9338217/why-does-c-need-the-scope-resolution-operator
+http://www.bogotobogo.com/cplusplus/statics.php
+http://www.bogotobogo.com/cplusplus/multipleinheritance.php
+http://www.bogotobogo.com/cplusplus/stackunwinding.php
+http://www.bogotobogo.com/cplusplus/private_inheritance.php
+http://www.bogotobogo.com/cplusplus/stackunwinding.php
+http://www.bogotobogo.com/cplusplus/C11/C11_override_final.php
+http://www.bogotobogo.com/cplusplus/C11/C11_initializer_list.php
+http://www.bogotobogo.com/cplusplus/stl5_function_objects.php#PredefinedFunctionObjects
+http://www.bogotobogo.com/cplusplus/stackunwinding.php
+http://www.bogotobogo.com/cplusplus/function_overloading.php#externC
+http://gaubuali.wordpress.com/linkage-in-c-and-c/
+
+
+http://www.coolinterview.com/type.asp?order=3&iType=829&iDBLoc=0
+http://edutwin.com/d/opengl-interview-questions-and-answers-pdf
+http://www.opengl.org/discussion_boards/showthread.php/144493-Good-Job-Interview-Questions
+http://stackoverflow.com/questions/4584079/opengl-interview-questions
+http://aggregate.org/MAGIC/#Bit%20Reversal
+http://www.opengl.org/discussion_boards/showthread.php/144493-Good-Job-Interview-Questions/page2
+http://www.cprogramming.com/jobs/job_interview.html
+
+
+
+http://www.coolinterview.com/interview/39798/
+http://www.rapidjob.info/info/questions_sw.htm
+http://www.jobiq.co.il/work-in-cplusplus-2/
+http://www.drushim.co.il/article/107
+http://theworker.co.il/ranks/recent/page/2
+http://www.4p8.com/eric.brasseur/cppcen.html
+
+http://aggregate.org/MAGIC/
+
+
+http://www.ynet.co.il/articles/0,7340,L-4519112,00.html
+
+
+questions in OpenGL
+http://www.coolinterview.com/interview/39798/
+http://www.coolinterview.com/type.asp?iType=829
+
+http://www.bogotobogo.com/cplusplus/multithreading_win32.php
+
+
+
+
+
+
+
+
+
+
+

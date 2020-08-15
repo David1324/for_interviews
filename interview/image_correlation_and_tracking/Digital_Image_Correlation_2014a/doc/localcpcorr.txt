@@ -1,0 +1,9 @@
+1. Copy files "cpcorr.m" and "findpeak.m" from the toolbox path (e.g. D:\Program Files\MATLAB\R2014a\toolbox\images\images) to your local DIC directory
+2. Rename "cpcorr.m" to "diccpcorr.m"
+3. Open "diccpcorr.m"
+4. Replace function name in first line with "[xymoving,corrcoef] = diccpcorr(CORRSIZE,varargin)"
+5. Comment out CORRSIZE parameter: %CORRSIZE = 15;
+6. Optional (for verification by warnings on the MATLAB console): Add "warning(['CORRSIZE=',num2str(CORRSIZE)]);" below commented CORRSIZE parameter
+7. add line "corrcoef=zeros(ncp,1);" before "
+for icp = 1:ncp"
+8. add line "corrcoef(icp,1) = amplitude;" after "findpeak(norm_cross_corr,subpixel);
