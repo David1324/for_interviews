@@ -112,6 +112,7 @@ ostream& operator<<(ostream& os, const My_List& list)
 My_List::My_List(const My_List& my_list)
 {
 	Node* temp = my_list.root;
+	root = NULL;
 	while (temp != NULL)
 	{
 		insert_node_at_end(temp->val);
@@ -181,4 +182,117 @@ void My_List::helper_reverse_list_recursively(Node* &root)
 void My_List::reverse_list_recursively()
 {
 	helper_reverse_list_recursively(root);
+}
+
+My_List My_List::sum_lists_into_list(My_List* list2)
+{
+	My_List sum_lists;
+	My_List reversed_list1 = *this; //copy constructor
+	My_List reversed_list2 = *list2; //copy constructor
+	reversed_list1.reverse_list_recursively();
+	reversed_list2.reverse_list_recursively();
+	Node* node1 = reversed_list1.root;
+	Node* node2 = reversed_list2.root;
+	int carrier = 0;
+	while (node1 != NULL && node2 != NULL)
+	{
+		int current_sum = node1->val + node2->val + carrier;
+		int remainder = current_sum % 10;
+		sum_lists.insert_node_at_beginning(remainder);
+		carrier = current_sum / 10;
+		node1 = node1->next;
+		node2 = node2->next;
+	}
+
+	while (node1 != NULL)
+	{
+		int current_sum = node1->val + carrier;
+		int remainder = current_sum % 10;
+		sum_lists.insert_node_at_beginning(remainder);
+		carrier = current_sum / 10;
+		node1 = node1->next;
+	}
+
+	while (node2 != NULL)
+	{
+		int current_sum = node2->val + carrier;
+		int remainder = current_sum % 10;
+		sum_lists.insert_node_at_beginning(remainder);
+		carrier = current_sum / 10;
+		node2 = node2->next;
+	}
+
+	return sum_lists;
+}
+
+int My_List::sum_lists_into_integer(My_List* list2)
+{
+	My_List reversed_list1 = *this; //copy constructor
+	My_List reversed_list2 = *list2; //copy constructor
+	reversed_list1.reverse_list_recursively();
+	reversed_list2.reverse_list_recursively();
+	Node* node1 = reversed_list1.root;
+	Node* node2 = reversed_list2.root;
+	int sum = 0;
+	int base = 1;
+	while (node1 != NULL && node2 != NULL)
+	{
+		sum += base * (node1->val + node2->val);
+		base *= 10;
+		node1 = node1->next;
+		node2 = node2->next;
+	}
+
+	while (node1 != NULL)
+	{
+		sum += base * node1->val;
+		base *= 10;
+		node1 = node1->next;
+	}
+
+	while (node2 != NULL)
+	{
+		sum += base * node2->val;
+		base *= 10;
+		node2 = node2->next;
+	}
+
+	return sum;
+}
+
+int My_List::get_length()
+{
+	int length = 0;
+	Node* temp = root;
+	while (temp != NULL)
+	{
+		length++;
+		temp = temp->next;
+	}
+	return length;
+}
+
+
+
+void My_List::zigzag_list()
+{
+	int length = get_length();
+	int half_length = length / 2;
+	Node* half_node = root;
+	Node* node_before_half_node = NULL;
+	for (int i = 0; i < half_length; i++)
+	{
+		node_before_half_node = half_node;
+		half_node = half_node->next;
+	}
+	helper_reverse_list_recursively(half_node);
+	if (node_before_half_node != NULL)
+	{
+		node_before_half_node->next = half_node;
+	}
+
+	cout << "list with second half reversed:" << endl;
+	cout << *this << endl;
+
+
 }

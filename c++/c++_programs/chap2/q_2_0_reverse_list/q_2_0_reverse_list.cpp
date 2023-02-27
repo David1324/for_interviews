@@ -32,25 +32,53 @@ My_List remove_duplicates_without_temporary_buffer(My_List& my_list)
 
 int main()
 {
-	My_List my_list;
-	my_list.insert_node_at_end(1);
-	my_list.insert_node_at_end(2);
-	my_list.insert_node_at_end(3);
-	my_list.insert_node_at_end(4);
-	my_list.insert_node_at_end(5);
-	my_list.insert_node_at_end(6);
-	My_List list2 = my_list;
+	//My_List list1;
+	//list1.insert_node_at_end(1);
+	//list1.insert_node_at_end(2);
+	//list1.insert_node_at_end(3);
+	//
 
-	cout << "List:" << endl;
-	cout << my_list;
+	//My_List list2;
+	//list2.insert_node_at_end(4);
+	//list2.insert_node_at_end(5);
 
-	//my_list.reverse_list_iteratively();
+	//My_List list3 = list2;
+
+	//int sum = list1.sum_lists_into_integer(&list2);
+	//My_List sum_lists = list1.sum_lists_into_list(&list2);
+
+	//cout << "list1:" << endl;
+	//cout << list1 << endl;
+
+	//cout << "list2:" << endl;
+	//cout << list2 << endl;
+
+	//cout << "sum = " << sum << endl;
+
+	//cout << "sum_lists:" << endl;
+	//cout << sum_lists << endl;
+
+	My_List list5;
+	list5.insert_node_at_end(1);
+	list5.insert_node_at_end(2);
+	list5.insert_node_at_end(3);
+	list5.insert_node_at_end(4);
+	list5.insert_node_at_end(5);
+	list5.insert_node_at_end(6);
+	list5.insert_node_at_end(7);
+	list5.insert_node_at_end(8);
+
+	list5.zigzag_list();
+
+	
+
+	//list1.reverse_list_iteratively();
 	//cout << "Reversed list (iteratively):" << endl;
-	//cout << my_list;
+	//cout << list1;
 
-	my_list.reverse_list_recursively();
-	cout << "Reversed list (recuresively):" << endl;
-	cout << my_list;
+	//list1.reverse_list_recursively();
+	//cout << "Reversed list (recuresively):" << endl;
+	//cout << list1;
 
 	getchar();
 	return 0;
